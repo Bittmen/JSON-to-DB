@@ -2,11 +2,38 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Work</title>
+    <style media="screen">
+      .clase{
+        background: gray;
+        width: 50%;
+        height: 200px;
+        margin-left: 25%;
+        text-align: center;
+      }
+      .clase input{
+        margin-top: 1%;
+      }
+
+    </style>
   </head>
   <body>
 
-    <h1> Mandar datos de JSON desde AJAX a una base de datos </h1>
+    <center> <h1> Mandar datos de JSON desde AJAX a una base de datos </h1> </center>
+
+    <div class="clase">
+      <form class="" action="index.html" method="post">
+        <label for="file">Seleccione el archivo json</label><br>
+        <input type="file" name="file" value=""> <br><br>
+        <label for="api">Ponga su API</label><br>
+        <input type="text" name="api" value="" placeholder="JSON"> <br><br>
+        <input type="button" name="envia" value="Enviar datos">
+      </form>
+    </div>
+
+  <footer style="text-align: center;">
+    <p>Rodolfo</p>
+  </footer>
 
     <script
 			  src="https://code.jquery.com/jquery-3.3.1.js"
